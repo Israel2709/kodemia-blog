@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.entries-wrapper{
+  width:80vw;
+  display: flex;
+  margin:1rem auto;
+  flex-wrap:wrap;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.blog-entry{
+  border: 1px solid #666;
+  border-radius: .5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:1rem;
+  padding-top: 0;
+  overflow: hidden;
+  box-shadow:5px 5px 5px #999;
+  margin-bottom:1rem;
+  width:25%;
 }
 
-.App-link {
-  color: #61dafb;
+.blog-entry button{
+  padding:.75rem;
+  background-color:#333;
+  color:white;
+  border-radius: .25rem;
+  align-self: end;
+  border: none;
+  cursor:pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog-entry img{
+  object-fit: cover;
+  width:100%;
+  height:200px;
+  object-position: center;
+}
+
+.main-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .form-group{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+form .form-group input{
+  height:1.75rem;
+  border: 1px solid #acacac;
+  border-radius:.5rem;
 }
