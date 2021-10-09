@@ -1,0 +1,20 @@
+export default {
+    routes:[
+        {
+            label:"home",
+            path:"/"
+        },
+        {
+            label:"create",
+            path:"/create"
+        },
+        {
+            label:"favoritos",
+            path:"/favs"
+        },
+        {
+            label:"extra",
+            path:"/extra"
+        }
+    ]
+}

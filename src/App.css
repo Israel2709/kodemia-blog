@@ -42,15 +42,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-form .form-group{
-  width:100%;
-  display: flex;
-  flex-direction: column;
-}
-
-form .form-group input{
-  height:1.75rem;
-  border: 1px solid #acacac;
-  border-radius:.5rem;
-}
